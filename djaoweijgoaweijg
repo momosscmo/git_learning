@@ -1,0 +1,95 @@
+[1mdiff --git a/js/script.js b/js/script.js[m
+[1mdeleted file mode 100644[m
+[1mindex 3adad37..0000000[m
+[1m--- a/js/script.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,13 +0,0 @@[m
+[31m-var acc = document.getElementsByClassName("accordion");[m
+[31m-var i;[m
+[31m-[m
+[31m-for (i = 0; i < acc.length; i++) {[m
+[31m-    acc[i].onclick = function(){[m
+[31m-        this.classList.toggle("active");[m
+[31m-        var panel = this.nextElementSibling;[m
+[31m-        if (panel.style.display === "block") {[m
+[31m-            panel.style.display = "none";[m
+[31m-        } else {[m
+[31m-            panel.style.display = "block";[m
+[31m-	}[m
+[31m-   }[m
+[1mdiff --git a/readme.txt b/readme.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/styles/style.css b/styles/style.css[m
+[1mdeleted file mode 100644[m
+[1mindex 5c6165b..0000000[m
+[1m--- a/styles/style.css[m
+[1m+++ /dev/null[m
+[36m@@ -1,66 +0,0 @@[m
+[31m-body{[m
+[31m-	background-color: #1D2031;[m
+[31m-    font-family: 'Ubuntu', sans-serif;[m
+[31m-    color: white;	[m
+[31m-}[m
+[31m-[m
+[31m-body a{[m
+[31m-	color: white;[m
+[31m-}[m
+[31m-[m
+[31m-header{[m
+[31m-	text-align: center;[m
+[31m-	margin-top: 50px;[m
+[31m-}[m
+[31m-[m
+[31m-h3{[m
+[31m-	color: red;[m
+[31m-}[m
+[31m-[m
+[31m-#header-img{[m
+[31m-	width: 400px;[m
+[31m-}[m
+[31m-[m
+[31m-#header-words{[m
+[31m-	line-height: 10px;[m
+[31m-	font-size: 50px;[m
+[31m-    font-family: 'Exo', sans-serif;[m
+[31m-    margin-bottom: 75px;[m
+[31m-}[m
+[31m-[m
+[31m-section{[m
+[31m-	padding: 0 50px 0px 50px;[m
+[31m-	text-align: center;[m
+[31m-}[m
+[31m-[m
+[31m-footer{[m
+[31m-	right: 0;[m
+[31m-  	bottom: 0;[m
+[31m-  	position: relative;[m
+[31m- 	padding: 10px 1rem 10px 0;[m
+[31m- 	margin-top: 50px;[m
+[31m- 	font-size: 0.7em;[m
+[31m-  	text-align: right;[m
+[31m-}[m
+[31m-[m
+[31m-footer p{[m
+[31m-	margin-bottom:0;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-div.accordion {[m
+[31m-    cursor: pointer;[m
+[31m-    border: none;[m
+[31m-    outline: none;[m
+[31m-[m
+[31m-}[m
+[31m-[m
+[31m-div.accordion.active, div.accordion:hover {[m
+[31m-    background-color: white;[m
+[31m-    color: #1D2031;[m
+[31m-}[m
+[31m-[m
+[31m-div.panel {[m
+[31m-    padding: 0 18px 0 0;[m
+[31m-    display: none;[m
+[31m-} [m
+\ No newline at end of file[m
